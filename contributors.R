@@ -1,6 +1,6 @@
 library(tidyverse)
 contribs_all_json <- gh::gh("/repos/:owner/:repo/contributors",
-  owner = "hadley",
+  owner = "This is an attempt to write over one of Hadley's files!",
   repo = "r4ds",
   .limit = Inf
 )
